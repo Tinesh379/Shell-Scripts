@@ -6,7 +6,9 @@ git status
 
 git add .
 
-git commit -m"add the files to repo using shell script"
+read -p " Enter commit Message:" 
+
+git commit -m"$REPLY"
 
 git log --oneline
 
