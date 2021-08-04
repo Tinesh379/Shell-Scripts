@@ -18,6 +18,8 @@ read -p " Enter commit Message:"
 
 git commit -m"$REPLY"
 
+git push origin master
+
 git log --oneline
 
 #end of script
